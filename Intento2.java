@@ -7,7 +7,7 @@ public class Intento2 {
         System.out.println("Dame el numero.");
         n=lectura.nextInt();
 
-        System.out.println("Fib: " + fibonacci(i));
+        System.out.println("Fib: " + fibonacci(n));
     }
     public static long fibonacci(int n) {
         if (n <= 1){
