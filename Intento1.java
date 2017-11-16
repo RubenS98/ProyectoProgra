@@ -4,7 +4,7 @@ public class Intento1 {
         int n;
         Scanner lectura = new Scanner(System.in);
 
-        System.out.println("Dame el numero");
+        System.out.println("Dame el numero.");
         n=lectura.nextInt();
 
         for (int i = 1; i <= n; i++){
